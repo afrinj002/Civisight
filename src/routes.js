@@ -6,6 +6,9 @@ import ArticleDetail from './pages/ArticleDetail';
 import VerificationDashboard from './pages/VerificationDashboard';
 import CivicDashboard from './pages/CivicDashboard';
 import Settings from './pages/Settings';
+import LoginPage from './pages/LoginPage';
+import SignUpPage from './pages/SignUpPage';
+import AboutPage from './pages/AboutPage';
 
 const Routes = () => {
   return (
@@ -16,6 +19,9 @@ const Routes = () => {
       <Route path="/verify" element={<VerificationDashboard />} />
       <Route path="/civic" element={<CivicDashboard />} />
       <Route path="/settings" element={<Settings />} />
+      <Route path="/login" element={<LoginPage />} />
+      <Route path="/signup" element={<SignUpPage />} />
+      <Route path="/about" element={<AboutPage />} />
     </ReactRoutes>
   );
 };

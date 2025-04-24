@@ -22,6 +22,8 @@ body {
     display: flex;
     align-items: center;
     margin-bottom: 30px;
+    text-decoration: none;
+    color: #fff;
   }
   
   .navbar-logo img {
@@ -342,4 +344,123 @@ body {
   
   .settings-links a:hover {
     text-decoration: underline;
+  }
+  
+  /* New styles for Login and Sign Up pages */
+  .auth-page {
+    text-align: center;
+    padding: 50px;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .auth-page h2 {
+    font-size: 28px;
+    color: #2c3e50;
+    margin-bottom: 20px;
+  }
+  
+  .auth-form {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #2c3e50;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .auth-button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .auth-button:hover {
+    background-color: #2980b9;
+  }
+  
+  .auth-page p {
+    margin-top: 20px;
+    color: #7f8c8d;
+  }
+  
+  .auth-page a {
+    color: #3498db;
+    text-decoration: none;
+  }
+  
+  .auth-page a:hover {
+    text-decoration: underline;
+  }
+
+  /* New styles for About page */
+.about-page {
+    padding: 50px;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about-page h2 {
+    font-size: 32px;
+    color: #2c3e50;
+    margin-bottom: 20px;
+  }
+  
+  .about-page h3 {
+    font-size: 24px;
+    color: #2c3e50;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+  
+  .about-page p {
+    font-size: 16px;
+    color: #7f8c8d;
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+  
+  .about-page ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  .about-page li {
+    font-size: 16px;
+    color: #7f8c8d;
+    margin-bottom: 10px;
+  }
+  
+  .about-page strong {
+    color: #2c3e50;
+  }
+
+  .landing-page img {
+    width: 50px;
+    margin-right: 0px;
   }
